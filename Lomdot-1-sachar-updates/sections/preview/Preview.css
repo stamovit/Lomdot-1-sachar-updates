@@ -1,0 +1,152 @@
+#body {
+    background-image: url(/assets/Preview/בואו\ נכיר.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    z-index: 1;
+    user-select: none;
+    position: absolute;
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#nextBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#nextBtn:hover { 
+    left: 2.8vw;
+}
+
+#backBtn {
+    visibility: hidden;
+    position: relative;
+    top: 93vh;
+    left: 11.3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#backBtn:hover { 
+    left: 11.5vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#continueBtn:hover { 
+    left: 2.8vw;
+}
+
+.popUp {
+    visibility: hidden;
+    position: absolute;
+    left: 13vw;
+    bottom: 1vh;
+    z-index: 2;
+}
+
+#popUpBtn1 {
+    visibility: hidden;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: 63vh;
+    left: 60vw;
+}
+
+#popUpBtn2 {
+    visibility: hidden;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: 63vh;
+    left: 40vw;
+}
+
+#popUpBtn3 {
+    visibility: hidden;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 63vh;
+    left: 20vw;
+}
+
+#popUpBtn1:hover {
+    top: 63.8vh;
+}
+
+#popUpBtn2:hover {
+    top: 63.8vh;
+}
+
+#popUpBtn3:hover {
+    top: 63.8vh;
+}
+
+@keyframes haasakaEffect {
+    0% { 
+        top: 63vh;
+    }
+    50% {
+        top: 62vh;
+    }
+    100% {
+        top: 63vh;
+    }
+}

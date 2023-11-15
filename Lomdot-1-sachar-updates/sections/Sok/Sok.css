@@ -1,0 +1,232 @@
+#body {
+    background-image: url(/assets/Sok/דירוגי\ שכר.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    z-index: 1;
+    user-select: none;
+    position: absolute;
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#nextBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#nextBtn:hover { 
+    left: 2.8vw;
+}
+
+#backBtn {
+    visibility: hidden;
+    position: relative;
+    top: 93vh;
+    left: 11.3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#backBtn:hover { 
+    left: 11.5vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#continueBtn:hover { 
+    left: 2.8vw;
+}
+
+#log1 {
+    position: absolute;
+    visibility: hidden;
+    left: 74vw;
+    top: 34vw;
+    height: 20vh;
+    margin-bottom: auto;
+}
+
+#log2 {
+    position: absolute;
+    visibility: hidden;
+    left: 54vw;
+    top: 30.85vw;
+    margin-bottom: auto;
+    height: 20vh;
+}
+
+#log3 {
+    position: absolute;
+    visibility: hidden;
+    left: 36.5vw;
+    margin-bottom: auto;
+    top: 34.5vw;
+    height: 20vh;
+}
+
+@keyframes log1Move {
+    0% { 
+        top: 34vw;
+    }
+    50% {
+        top: 32.5vw;
+    }
+    100% {
+        top: 34vw;
+    }
+}
+
+@keyframes log2Move {
+    0% { 
+        top: 30.85vw;
+    }
+    50% {
+        top: 29vw;
+    }
+    100% {
+        top: 30.85vw;
+    }
+}
+
+@keyframes log3Move {
+    0% { 
+        top: 34.5vw;
+    }
+    50% {
+        top: 33vw;
+    }
+    100% {
+        top: 34.5vw;
+    }
+}
+
+#flower1 {
+    position: absolute;
+    left: 93.5vw;
+    top: 17.5vh;
+    width: 8vw;
+    visibility: hidden;
+}
+
+#flower2 {
+    position: absolute;
+    left: 93.5vw;
+    top: 30.5vh;
+    width: 8vw;
+    visibility: hidden;
+}
+
+#flower3 {
+    position: absolute;
+    left: 93.5vw;
+    top: 43.5vh;
+    visibility: hidden;
+    width: 8vw;
+}
+
+#flower4 {
+    position: absolute;
+    left: 93.5vw;
+    top: 50.5vh;
+    visibility: hidden;
+    width: 8vw;
+}
+
+@keyframes flowersAnimation {
+    0% {
+        width: 8vw;
+    }
+    50% {
+        width: 10vw;
+        left: 92.5vw;
+    }
+    100% {
+        width: 8vw;
+    }
+}
+
+#text1 {
+    position: absolute;
+    left: 21.5vw;
+    top: 17vh;
+    opacity: 0;
+    height: 16.5vh;
+}
+
+#text2 {
+    position: absolute;
+    left: 21.5vw;
+    top: 30vh;
+    opacity: 0;
+    height: 16.5vh;
+
+}
+
+#text3 {
+    position: absolute;
+    left: 27vw;
+    top: 40vh;
+    opacity: 0;
+    height: 16.5vh;
+
+}
+
+#text4 {
+    position: absolute;
+    left: 14.2vw;
+    top: 44vh;
+    opacity: 0;
+    height: 30vh;
+
+}
+
+@keyframes textFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

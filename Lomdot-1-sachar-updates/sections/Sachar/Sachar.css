@@ -1,0 +1,209 @@
+#body {
+    background-image: url(/assets/Sachar/תוספות\ והסכמי\ שכר.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    z-index: 1;
+    user-select: none;
+    position: absolute;
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#nextBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#nextBtn:hover { 
+    left: 2.8vw;
+}
+
+#backBtn {
+    visibility: hidden;
+    position: relative;
+    top: 93vh;
+    left: 11.3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#backBtn:hover { 
+    left: 11.5vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#continueBtn:hover { 
+    left: 2.8vw;
+}
+
+.popUp {
+    visibility: hidden;
+    position: absolute;
+    left: 13vw;
+    bottom: 1vh;
+    z-index: 2;
+}
+
+#popUpBtn1 {
+    visibility: hidden;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: 45vh;
+    left: 60vw;
+}
+
+#popUpBtn2 {
+    visibility: hidden;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: 45vh;
+    left: 35.1vw;
+}
+
+#popUpBtn3 {
+    visibility: hidden;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 45vh;
+    left: 17vw;
+}
+
+#popUpBtn1:hover {
+    left: 60vw;
+    top: 44vh;
+    content: url("/assets/Sachar/כוכב\ לכת\ 1\ עם\ זוהר.png");
+}
+
+#popUpBtn2:hover {
+    left: 35.2vw;
+    top: 44vh;
+    content: url("/assets/Sachar/כוכב\ לכת\ 2\ עם\ זוהר.png");
+}
+
+#popUpBtn3:hover {
+    left: 17vw;
+    top: 44vh;
+    content: url("/assets/Sachar/כוכב\ לכת\ 3\ עם\ זוהר.png");
+}
+
+@keyframes PopUpEffect {
+    0% { 
+        top: 45vh;
+    }
+    50% {
+        top: 46vh;
+    }
+    100% {
+        top: 45vh;
+    }
+}
+
+#astronaut {
+    visibility: hidden;
+    position: absolute;
+    left: -15vw;
+    top: -8vh;
+}
+
+@keyframes astronautComeIn {
+    0% { 
+        left: -30vw;
+        top: -15vh;
+    }
+    100% {
+        left: -15vw;
+        top: -8vh;
+    }
+}
+
+#drihut {
+    visibility: visible;
+    position: absolute;
+    left: 110vw;
+    top: 38vh;
+
+}
+
+#hilit {
+    visibility: visible;
+    position: absolute;
+    left: -40vw;
+    top: 60vh;
+}
+
+@keyframes HilitAnimation {
+    0% { 
+        left: -40vw;
+    }
+    100% {
+        left: -10vw;
+    }
+}
+
+@keyframes DrihutAnimation {
+    0% { 
+        left: 110vw;
+    }
+    100% {
+        left: 78vw;
+    }
+}

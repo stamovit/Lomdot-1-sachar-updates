@@ -1,0 +1,84 @@
+#body {
+    background-image: url(/assets/Klita/היכרות\ וקליטת\ העובד.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    z-index: 1;
+    user-select: none;
+    position: absolute;
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#nextBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#nextBtn:hover { 
+    left: 2.8vw;
+}
+
+#backBtn {
+    visibility: hidden;
+    position: relative;
+    top: 93vh;
+    left: 11.3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#backBtn:hover { 
+    left: 11.5vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#continueBtn:hover { 
+    left: 2.8vw;
+}

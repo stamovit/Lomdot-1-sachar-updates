@@ -1,0 +1,133 @@
+#body {
+    background-image: url(../assets/Exercise/שאלה\ 1\ הקדמה.png);
+    background-size: 100vw 100vh;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#rightButton {
+    cursor: pointer;
+    position: absolute;
+    top: 36vh;
+    left: 60vw;
+    width: 16vw;
+}
+
+#rightButton:hover { 
+    content: url("../assets/Exercise/כפתור\ נכון\ זוהר.png");
+    top: 37vh;
+}
+
+#wrongButton {
+    cursor: pointer;
+    position: absolute;
+    top: 36.2vh;
+    left: 48vw;
+    width: 16vw;
+
+}
+
+#wrongButton:hover { 
+    content: url("../assets/Exercise/כפתור\ לא\ נכון\ זוהר.png");
+    top: 37vh;
+}
+
+.answer {
+    visibility: hidden;
+    position: absolute;
+    top: 50vh;
+    left: 40vw;
+    width: 55vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 15vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#continueBtn:hover { 
+    left: 14.8vw;
+}
+
+.americanAnswers {
+    position: relative;
+    left: 47.55vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+    width: 50.65vw;
+    height: 8.3vh;
+    border-radius: 1.8vw;
+}
+
+#firstAnswer {
+    top: 37.9vh;
+}
+
+#firstAnswer:hover {
+    background-color: grey;
+    opacity: 0.2;
+}
+
+#secondAnswer {
+    top: 50.6vh;
+}
+
+#secondAnswer:hover {
+    background-color: grey;
+    opacity: 0.2;
+}
+
+#thirdAnswer {
+    top: 63.5vh;
+}
+
+#thirdAnswer:hover {
+    background-color: grey;
+    opacity: 0.2;
+}
+
+#fourthAnswer {
+    top: 75.8vh;
+}
+
+#fourthAnswer:hover {
+    background-color: grey;
+    opacity: 0.2;
+}

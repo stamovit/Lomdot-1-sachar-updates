@@ -1,0 +1,265 @@
+#body {
+    background-image: url(/assets/Os/השירות\ הסוציאלי.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    z-index: 1;
+    user-select: none;
+    position: absolute;
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#nextBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#nextBtn:hover { 
+    left: 2.8vw;
+}
+
+#backBtn {
+    visibility: hidden;
+    position: relative;
+    top: 93vh;
+    left: 11.3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#backBtn:hover { 
+    left: 11.5vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#continueBtn:hover { 
+    left: 2.8vw;
+}
+
+#title {
+    position: absolute;
+    left: 72.4vw;
+    top: 47vh;
+    visibility: hidden;
+}
+
+#snow1 {
+    position: absolute;
+    left: 97vw;
+    top: 54.2vh;
+    visibility: hidden;
+}
+
+#snow2 {
+    position: absolute;
+    left: 97vw;
+    top: 64.5vh;
+    visibility: hidden;
+}
+
+#snow3 {
+    position: absolute;
+    left: 97vw;
+    top: 70vh;
+    visibility: hidden;
+}
+
+#snow4 {
+    position: absolute;
+    left: 97vw;
+    top: 75.5vh;
+    visibility: hidden;
+}
+
+@keyframes snowAnimation {
+    0% {
+        width: 2vw;
+    }
+    50% {
+        width: 2.8vw;
+        left: 96.5vw;
+    }
+    100% {
+        width: 2vw;
+    }
+}
+
+#text1 {
+    position: absolute;
+    left: 45.5vw;
+    top: 52.8vh;
+    opacity: 0;
+    width: 51vw;
+}
+
+#text2 {
+    position: absolute;
+    left: 85.45vw;
+    top: 64.5vh;
+    opacity: 0;
+    width: 10.5vw;
+}
+
+#text3 {
+    position: absolute;
+    left: 70.05vw;
+    top: 70vh;
+    opacity: 0;
+    width: 26vw;
+}
+
+#text4 {
+    position: absolute;
+    left: 83vw;
+    top: 76vh;
+    opacity: 0;
+    width: 13vw;
+}
+
+@keyframes textFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#secondTitle {
+    position: absolute;
+    left: 72.4vw;
+    top: 51.5vh;
+    visibility: hidden;
+}
+
+#secondSnow1 {
+    position: absolute;
+    left: 97vw;
+    top: 59vh;
+    visibility: hidden;
+}
+
+#secondSnow2 {
+    position: absolute;
+    left: 97vw;
+    top: 65vh;
+    visibility: hidden;
+}
+
+#secondSnow3 {
+    position: absolute;
+    left: 97vw;
+    top: 71vh;
+    visibility: hidden;
+}
+
+#secondText1 {
+    position: absolute;
+    left: 83vw;
+    top: 59vh;
+    opacity: 0;
+    width: 13vw;
+}
+
+#secondText2 {
+    position: absolute;
+    left: 57.2vw;
+    top: 65vh;
+    opacity: 0;
+    width: 39vw;
+}
+
+#secondText3 {
+    position: absolute;
+    left: 59vw;
+    top: 71vh;
+    opacity: 0;
+    width: 38vw;
+}
+
+#ice1 {
+    position: absolute;
+    left: 50vw;
+    top: 40vh;
+    width: 50vw;
+    visibility: hidden;
+}
+
+#ice2 {
+    position: absolute;
+    left: 43vw;
+    top: 40vh;
+    width: 50vw;
+    visibility: hidden;
+}
+
+#ice3 {
+    position: absolute;
+    left: 18vw;
+    top: 40vh;
+    width: 50vw;
+    visibility: hidden;
+}
+
+#ice4 {
+    position: absolute;
+    left: -8vw;
+    top: 40vh;
+    visibility: hidden;
+    width: 50vw;
+}
+
+@keyframes iceAnimation {
+    0% {
+        top: 40vh;
+    }
+    50% {
+        top: 39vh;
+    }
+    100% {
+        top: 40vh;
+    }
+}
